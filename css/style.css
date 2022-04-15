@@ -2,6 +2,10 @@
     --dark-blue: #637899;
     --dirty-black: #27303F;
     --ml-padd: 16px;
+    --bord-col: #DBE3F0;
+    --gray-col: #A3B3CC;
+    --light-blue: #56B8FF;
+    --back-col: #F9FAFD;
 }
 
 @font-face {
@@ -120,7 +124,7 @@ h2 {
     align-content: center;
     text-align: center;
     width: 500px;
-    border: 1px solid #DBE3F0;
+    border: 1px solid var(--bord-col);
     box-sizing: border-box;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
     border-radius: 0px 0px 20px 20px;
@@ -137,7 +141,7 @@ h2 {
 }
 
 .up_side_ready span {
-    color: #A3B3CC;
+    color: var(--gray-col);
     margin-bottom: 24px;
 }
 
@@ -148,26 +152,23 @@ h2 {
     font-size: 64px;
     line-height: 100%;
     text-transform: uppercase;
-    color: #27303F;
+    color: var(--dirty-black);
     margin-bottom: 24px;
 }
 
-.up_side_ready p {
+.up_side_ready p{
     color: var(--dark-blue);
     margin-bottom: 48px;
 }
 
 .up_side_ready button {
-    font-family: FuturaPTWebMedium;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
+    font-family: FuturaPTWebHeavy;
     line-height: 20px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #56B8FF;
+    color: var(--light-blue);
     background: white;
-    border: 2px solid #56B8FF;
+    border: 2px solid var(--light-blue);
     border-radius: 12px;
     padding: 18px;
     width: 100%;
@@ -269,7 +270,7 @@ h2 {
 
 .main_develop div {
     margin: 12px;
-    border: 1px solid #DBE3F0;
+    border: 1px solid var(--bord-col);
     border-radius: 20px;
     padding: 32px;
     height: 270px;
@@ -307,7 +308,7 @@ h2 {
 }
 
 .test {
-    background: #F9FAFD;
+    background: var(--back-col);
     text-align: center;
     padding: 144px 0;
     margin-bottom: 144px;
@@ -333,8 +334,8 @@ h2 {
 
 .col-test div {
     padding: 40px;
-    background: #F9FAFD;
-    border: 1px solid #DBE3F0;
+    background: var(--back-col);
+    border: 1px solid var(--bord-col);
     box-sizing: border-box;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
     border-radius: 20px;
@@ -401,12 +402,12 @@ h2 {
 }
 
 .expert:last-child span {
-    color: #56B8FF;
+    color: var(--light-blue);
 }
 
 .ceo {
     position: relative;
-    border: 1px solid #DBE3F0;
+    border: 1px solid var(--bord-col);
     box-sizing: border-box;
     border-radius: 20px;
     margin-bottom: 144px;
@@ -460,7 +461,7 @@ h2 {
 
 .text_expert_ceo span {
     letter-spacing: 0.005em;
-    color: #56B8FF;
+    color: var(--light-blue);
 }
 
 .figure {
@@ -471,7 +472,7 @@ h2 {
 
 footer {
     width: 100%;
-    background: #F9FAFD;
+    background: var(--back-col);
     padding-bottom: 80px;
 }
 
@@ -495,16 +496,13 @@ footer {
 
 .left_sect button {
     margin-top: 40px;
-    font-family: FuturaPTWebMedium;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
+    font-family: FuturaPTWebHeavy;
     line-height: 20px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #56B8FF;
+    color: var(--light-blue);
     background: white;
-    border: 2px solid #56B8FF;
+    border: 2px solid var(--light-blue);
     border-radius: 12px;
     padding: 18px;
     width: 80%;
